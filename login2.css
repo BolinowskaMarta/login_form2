@@ -1,0 +1,95 @@
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+body{
+    background-image: url(bokeh-2152298_1920.jpg);
+    background-size: cover;
+    font-family: sans-serif;
+}
+
+.form{
+    width:500px;
+    height: 450px;
+    margin:60px auto 0;
+    padding: 40px;
+    text-align: center;
+    border: 3px solid #fff;
+    border-radius: 50%;
+    background: rgba(0,0,0,0.2);
+    color: #fff;
+}
+.form h2{
+    margin-bottom: 30px;
+    color:#fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+.btn {
+    display: block;
+    height: 40px;
+    margin-top: 20px;
+    line-height: 40px;
+    text-align: center;
+    background: #618196;
+    border-radius: 25px;
+    color: #fff;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    letter-spacing: 5px;
+    animation: anime 4s infinite linear;
+}
+@keyframes anime{
+    0% {background-color: #618196;}
+  25%  {background-color: #7a9eb8;}
+  50%  {background-color: #7fadcc;}
+  100% {background-color: #65889e;}
+}
+
+input{
+    width:100%;
+    height: 40px;
+    border-radius:25px;
+    border: 2px solid white;
+    font-size: 22px;
+    text-align: center;
+    background: transparent;
+    color: #fff;
+
+}
+
+.pass{
+    text-decoration: none;
+    display: block;
+    margin-top: 30px;
+    
+    font: 18px bold;
+    font-family: monospace;
+    color: #fff;
+}
+.rejestr{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top:10px;
+    font-weight: bold;
+}
+
+.rejestr a{
+    color: #618196;
+    text-transform: uppercase;
+    text-decoration: none;
+    letter-spacing: 3px;
+    cursor:pointer;
+   
+}
+
+.rejestr span{
+    margin:0 8px 0 8px;
+    text-transform: lowercase;
+    font-size: 14px;
+    font-weight: 100;
+    color:#fff;
+}
